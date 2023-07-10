@@ -1,0 +1,49 @@
+---
+sidebar: sidebar 
+permalink: task-viewing-gcp-storage.html 
+keywords: google cloud storage buckets, google cloud storage, google cloud storage working environment 
+summary: 在Google Cloud中安裝Connector之後、BlueXP會自動探索有關Google Cloud儲存區的資訊、這些儲存區位於安裝Connector的Google帳戶中。此時會將Google Cloud Storage工作環境新增至CanvasTM、以便您檢視此資訊。 
+---
+= 檢視您的Google Cloud Storage儲存桶
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+在Google Cloud中安裝Connector之後、BlueXP會自動探索有關Google Cloud Storage儲存桶的資訊、這些儲存桶位於安裝Connector的Google帳戶中。此時會將Google Cloud Storage工作環境新增至CanvasTM、以便您檢視此資訊。
+
+您可以查看Google Cloud Storage儲存桶的詳細資料、包括位置、存取狀態、儲存設備類別、總容量和已用容量等。這些貯體可做為 BlueXP 備份與還原、 BlueXP 分層或 BlueXP 複製與同步作業的目的地。
+
+.步驟
+. https://docs.netapp.com/us-en/bluexp-setup-admin/task-quick-start-connector-google.html["安裝連接器"^] 在您想要檢視Google Cloud Storage儲存桶的Google帳戶中。
+. 從導覽功能表中、選取*儲存設備> Canvas*。
++
+不久之後、您應該會自動看到Google Cloud Storage工作環境。
+
++
+image:screenshot-gcp-cloud-storage-we.png["Google Cloud Storage工作環境的快照。"]
+
+. 如果您想要啟用 Google Cloud Storage 的 BlueXP 服務、請選取工作環境、然後從右窗格中選取一個動作。
++
+image:screenshot-gcp-cloud-storage-actions.png["在您選取Google Cloud Storage工作環境之後、會顯示「行動」窗格的快照。窗格會顯示貯體總數和可用的動作。"]
+
++
+link:task-gcp-enable-data-services.html["瞭解有哪些 BlueXP 服務可用、並瞭解如何將這些服務與 Google Cloud Storage 貯體搭配使用"]。
+
+. 選取 * 輸入工作環境 * 、或按兩下工作環境、以檢視 Google 帳戶中的儲存庫詳細資料。
++
+image:screenshot-gcp-cloud-storage-details.png["顯示Google Cloud Storage工作環境詳細資料的快照：儲存區總數、容量和位置、然後顯示每個儲存區詳細資料的表格。"]
+
++
+除了預設會顯示的欄外、您也可以捲動頁面來檢視貯體的其他屬性、例如標籤數量、以及已啟用的加密類型。
+
+
+
+.下一步
+您可以按一下、直接從BlueXP變更部分庫位設定 image:button-horizontal-more.gif["三點多一點按鈕"] 一桶。 link:task-change-gcp-bucket-settings.html["如需詳細資料、請前往此處"]。
+
+您可以按一下 * 新增儲存庫 * 來新增儲存庫。 link:task-add-gcp-bucket.html["如需詳細資料、請前往此處"]。

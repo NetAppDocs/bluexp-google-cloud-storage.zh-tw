@@ -1,0 +1,43 @@
+---
+sidebar: sidebar 
+permalink: task-gcp-enable-data-services.html 
+keywords: google buckets, google storage, google cloud storage working environment, google cloud storage buckets 
+summary: 在 BlueXP 中探索 Google Cloud Storage 貯體之後、您可以使用 NetApp 資料服務來進行備份、分層和資料同步。 
+---
+= 使用 NetApp 資料服務搭配 Google Cloud Storage 貯體
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+在 BlueXP 中探索 Google Cloud Storage 貯體之後、您可以使用 NetApp 資料服務來進行備份、分層和資料同步。
+
+* 使用 * BlueXP 備份與還原 * 、將內部部署 ONTAP 與 Cloud Volumes ONTAP 系統的資料備份至 Google Cloud 物件儲存設備。
++
+若要開始使用、請前往 Canvas 、在 Google Cloud Storage 工作環境中拖放內部部署的 ONTAP 或 Cloud Volumes ONTAP 工作環境。
+
++
+https://docs.netapp.com/us-en/bluexp-backup-recovery/concept-ontap-backup-to-cloud.html["深入瞭解如何將 ONTAP 資料備份至 Google Cloud Storage"^]。
+
+* 使用 * BlueXP 分層 * 、將內部部署 ONTAP 叢集的非使用中資料分層至 Google Cloud 物件儲存設備。
++
+若要開始使用、請前往 Canvas 、在 Google Cloud Storage 工作環境中拖放內部部署的 ONTAP 工作環境。
+
++
+https://docs.netapp.com/us-en/bluexp-tiering/task-tiering-onprem-gcp.html["深入瞭解如何將 ONTAP 資料分層至 Google Cloud Storage"^]。
+
+* 使用 * BlueXP 複製與同步 * 、將資料同步至 Google Cloud Storage 貯體或從其中同步。
++
+若要開始使用、請移至「畫版」、然後將來源工作環境拖放到目標工作環境。您的 Google Cloud Storage 工作環境可以是來源或目標。
+
++
+您也可以選取 Google Cloud Storage 工作環境、然後按一下「服務」面板中的 * 複製與同步 * 、將資料與雲端儲存貯體同步。
+
++
+https://docs.netapp.com/us-en/bluexp-copy-sync/concept-cloud-sync.html["深入瞭解 BlueXP 複本與同步服務"^]。
+
+

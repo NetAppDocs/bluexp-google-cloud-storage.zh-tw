@@ -1,0 +1,151 @@
+---
+sidebar: sidebar 
+permalink: task-add-gcp-bucket.html 
+keywords: google cloud storage buckets, google cloud storage, add buckets 
+summary: 一旦您的 Google Cloud Storage 工作環境可在 Canvas 中使用、您就可以直接從 BlueXP 新增額外的儲存區。 
+---
+= 新增 Google Cloud Storage 貯體
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+一旦您的 Google Cloud Storage 工作環境可在 Canvas 中使用、您就可以直接從 BlueXP 新增額外的儲存區。
+
+.步驟
+. 在 Canvas 中、按兩下 Google Cloud Storage 工作環境以檢視 Google Cloud Storage Buckets Overview 頁面、然後按一下 * Add Bucket * 。
++
+image:screenshot-add-gcp-bucket-button.png["螢幕快照顯示 Google Cloud Storage 工作環境的詳細資料、以及「新增儲存區」按鈕。"]
+
++
+此時會顯示「_新增儲存區_」頁面。
+
++
+image:screenshot-add-gcp-bucket.png["顯示「新增儲存庫」頁面的螢幕快照、讓您可以建立自己的 Google Cloud Storage 儲存庫。"]
+
+. 在 _ 專案詳細資料 _ 區段中輸入必要資訊。
++
+[cols="25,75"]
+|===
+| 欄位 | 說明 
+
+
+| 儲存區名稱 | 輸入您要用於貯體的名稱。 https://cloud.google.com/storage/docs/buckets#naming["請參閱 Google Cloud 文件以瞭解命名要求"^]。 
+
+
+| Google 專案  a| 
+選取將成為貯體擁有者的 Google 專案。這可以是部署 Connector 的主要專案、也可以是不同的專案。
+
+如果在下拉式清單中沒有看到任何其他專案、表示您尚未將BlueXP服務帳戶與其他專案建立關聯。前往 Google Cloud 主控台、開啟 IAM 服務、然後選取專案。將具有BlueXP角色的服務帳戶新增至該專案。您必須針對每個專案重複此步驟。
+
+
+NOTE: 這是您為BlueXP設定的服務帳戶、 https://docs.netapp.com/us-en/bluexp-setup-admin/task-set-up-permissions-google.html#set-up-permissions-for-the-connector["如本頁所述"^]。
+
+
+
+| 標籤  a| 
+標籤是Google Cloud資源的中繼資料。建立貯體時、最多可加入 10 個標籤機碼：值配對。
+
+https://cloud.google.com/compute/docs/labeling-resources["如需標籤的詳細資訊、請參閱 Google Cloud 文件"^]。
+
+|===
+. 在 _ 位置 _ 區段中、選取要建立儲存庫的位置類型和區域（或區域）。您可以從三種不同類型的位置中進行選擇。
++
+[cols="35,65"]
+|===
+| 如果您選取「位置類型」 ... | 然後選取 ... 
+
+
+| 區域 | 「可用區域」欄位中的單一區域。 
+
+
+| 雙區域  a| 
+「可用位置」欄位中的地理位置（單一大陸）、然後在「可用區域」欄位中選取兩個區域。
+
+如果您想要在 15 分鐘內保證所有新寫入物件的地理備援、您可以啟用「 Turbo 複寫」。
+
+
+
+| 多區域 | 「可用多區域」欄位中的地理多區域。 
+|===
++
+請注意、上傳後、所有雲端儲存資料都會在至少一個地理區域內的至少兩個區域中備援。 https://cloud.google.com/storage/docs/locations["如需貯體位置的詳細資訊、請參閱 Google Cloud 文件"^]。
+
+. 在 _ 儲存類別 _ 區段中、選取儲存類別、以用於儲存貯體中的物件。您可以從四個儲存類別中進行選擇、也可以選取 _Autoclass_ 、讓 Google 視需要調整類別。
++
+[cols="25,75"]
+|===
+| 儲存類別 | 說明 
+
+
+| 標準 | 標準儲存設備最適合經常存取（「熱」資料）和 / 或只儲存一小段時間的資料。 
+
+
+| 近線 | 近線儲存設備是一種低成本、高度耐用的儲存服務、可儲存不常存取的資料。 
+
+
+| 冷線 | Coldline 儲存設備是一項成本極低、高度耐用的儲存服務、可儲存不常存取的資料。 
+
+
+| 歸檔 | 歸檔儲存是成本最低、高度耐用的儲存服務、適用於資料歸檔、線上備份和災難恢復。 
+
+
+| AutoClass | AutoClass 會根據每個物件的存取模式、自動將貯體中的物件轉換成適當的儲存類別。 
+|===
++
+每個儲存類別的成本和擷取費用各不相同。 https://cloud.google.com/storage/docs/storage-classes["如需儲存類別的詳細資訊、請參閱 Google Cloud 文件"^]。
+
+. 在 _ 保護 _ 區段中、選擇是要使用任何資料保護工具來保護貯體中的物件、還是要使用任何資料加密組態來保護資料的存取。
++
+[cols="25,75"]
+|===
+| 資料保護 | 說明 
+
+
+| 無 | 根據預設、貯體上不會啟用任何保護工具。 
+
+
+| 物件版本管理  a| 
+每次更新、取代或刪除即時物件版本時、貯體都會保留非目前的物件版本、並持續維護受保護的物件版本。選取「物件版本設定」時、您可以指定兩個選項：
+
+** * 最大每個物件的版本數 * - 輸入將建立的每個物件的非目前版本數。
+** * 將非目前版本過期 * - 輸入較舊、非目前物件將被移除的天數。
+
+
+
+
+| 保留原則  a| 
+保留原則可確保貯體中所有目前和未來的物件、在達到保留原則中所定義的使用期限之前、都無法刪除或取代它們。選取「保留原則」時、您可以指定兩個選項：
+
+** * 保留物件 * ：輸入物件保留的秒數、天、月數或年數。
+** * 時間範圍 * ：選取時間是以秒、天、月或年為單位。
+
+
+|===
++
+物件版本設定和保留原則保護工具無法同時啟用。請參閱的 Google Cloud 文件 https://cloud.google.com/storage/docs/object-versioning["物件版本設定的詳細資訊"^]和 https://cloud.google.com/storage/docs/bucket-lock["關於保留原則的更多資訊"^]。
+
++
+[cols="25,75"]
+|===
+| 資料加密 | 說明 
+
+
+| Google 託管的加密金鑰 | 根據預設、 Google 託管的加密金鑰會用於加密資料。 
+
+
+| 客戶管理的加密金鑰（ CMEK ）  a| 
+您可以使用自己的客戶管理金鑰進行資料加密、而非使用預設的Google管理加密金鑰。如果您打算使用自己的客戶管理金鑰、您必須先建立金鑰、才能在此頁面中選取金鑰。
+
+金鑰可以與貯體位於同一個專案中、也可以選取不同的專案。
+
+|===
++
+請參閱的 Google Cloud 文件 https://cloud.google.com/storage/docs/encryption/default-keys["更多 Google 託管加密金鑰的相關資訊"^]和 https://cloud.google.com/storage/docs/encryption/customer-managed-keys["有關客戶管理的加密金鑰的更多資訊"^]。
+
+. 按一下 * 新增 * 、就會建立貯體。
+

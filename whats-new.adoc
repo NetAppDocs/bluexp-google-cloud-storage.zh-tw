@@ -1,0 +1,27 @@
+---
+sidebar: sidebar 
+permalink: whats-new.html 
+keywords: 'what"s new, features, new, release notes, bugs, limitations, known issues, enhancements, fixes' 
+summary: 瞭解 BlueXP 中 Google Cloud Storage 的新功能。 
+---
+= BlueXP 中的 Google Cloud Storage 有哪些新功能
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+瞭解 BlueXP 中 Google Cloud Storage 的新功能。
+
+
+
+== 2023 年 7 月 10 日
+
+
+
+=== 能夠從 BlueXP 新增庫位並管理現有的庫位
+
+您已有一段時間可以在 BlueXP Canvas 上檢視 Google Cloud Storage 儲存貯體。現在、您可以直接從BlueXP新增新的儲存格並變更現有儲存格的內容。 https://docs.netapp.com/us-en/bluexp-google-cloud-storage/task-add-gcp-bucket.html["瞭解如何新增 Google Cloud Storage 貯體"^]。

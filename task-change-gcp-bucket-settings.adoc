@@ -1,0 +1,58 @@
+---
+sidebar: sidebar 
+permalink: task-change-gcp-bucket-settings.html 
+keywords: google cloud storage buckets, google cloud storage, edit buckets, change buckets 
+summary: 一旦您的 Google Cloud Storage 工作環境可在 Canvas 中使用、您就可以直接從 BlueXP 變更部分儲存庫內容。 
+---
+= 變更 Google Cloud Storage 儲存貯體設定
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+一旦您的 Google Cloud Storage 工作環境可在 Canvas 中使用、您就可以直接從 BlueXP 變更部分儲存庫內容。
+
+請注意、您無法變更貯體名稱、 Google 專案或保護設定。
+
+您可以變更的庫位屬性包括：
+
+* 貯體中所有未來物件的儲存類別。
+* 您可以選擇新增、編輯及移除標籤至貯體中的物件。
+* Turbo 複寫模式 - 僅當儲存區位於雙區域位置時。
+
+
+您可以按一下、直接從BlueXP變更這些庫位設定 image:button-horizontal-more.gif["三點多一點按鈕"] > * 編輯貯體詳細資料 * 。
+
+image:screenshot-edit-gcp-bucket.png["顯示如何選取「編輯貯體詳細資料」按鈕以編輯貯體屬性的螢幕快照。"]
+
+
+
+== 變更儲存類別
+
+「儲存類別」區段可讓您僅進行特定變更：
+
+* 如果在建立貯體時選取了 _Autoclass_ 、您可以停用 Autoclass 並選取其他儲存類別。
+* 如果在建立貯體時選取任何其他儲存類別、您可以變更為任何其他儲存類別、但 _Autoclass_ 除外。
+
+
+屬於不同類別的物件會保留在該類別中、但任何新物件都會使用新的類別設定。
+
+
+
+== 新增或變更貯體中物件的標籤
+
+標籤是中繼資料、可用來將資源分組、以識別應用程式、環境、區域、雲端供應商等。標籤由金鑰和值組成。您可以將標籤新增至貯體、以便將標籤新增至貯體時、將其套用至物件。您也可以變更及刪除標籤和標籤值。
+
+新增或編輯標籤後、按一下 * 套用 * 以儲存變更。若要新增更多標籤、請按一下 * 新增標籤 * 。每個貯體最多可加入 10 個標籤。
+
+
+
+== 變更是否在雙區域位置啟用 Turbo 複寫
+
+如果貯體位於雙區域位置、您可以啟用或停用 Turbo 複寫模式。「 Turbo 複寫」可讓您在 15 分鐘的目標時間內、保證所有新寫入的物件具有地理備援功能。
+
+在建立貯體之後、無法變更其他位置詳細資料。
