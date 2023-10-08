@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+
+
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  
+    
+    
+  
+
+  
+  
+    <url>
+      <loc>https://docs.netapp.com/zh-tw/bluexp-google-cloud-storage/</loc>
+      
+      <lastmod>2023-07-10T14:56:52+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/zh-tw/bluexp-google-cloud-storage/legal-notices.html</loc>
+      
+      <lastmod>2023-09-28T16:26:03+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/zh-tw/bluexp-google-cloud-storage//search.html</loc>
+      
+      <lastmod>2023-10-08T14:53:39+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/zh-tw/bluexp-google-cloud-storage/task-add-gcp-bucket.html</loc>
+      
+      <lastmod>2023-07-10T14:56:52+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/zh-tw/bluexp-google-cloud-storage/task-change-gcp-bucket-settings.html</loc>
+      
+      <lastmod>2023-07-10T14:56:52+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/zh-tw/bluexp-google-cloud-storage/task-gcp-enable-data-services.html</loc>
+      
+      <lastmod>2023-07-10T14:56:52+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/zh-tw/bluexp-google-cloud-storage/task-get-help.html</loc>
+      
+      <lastmod>2023-10-04T16:04:28+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/zh-tw/bluexp-google-cloud-storage/task-support-registration.html</loc>
+      
+      <lastmod>2023-10-04T16:04:28+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/zh-tw/bluexp-google-cloud-storage/task-viewing-gcp-storage.html</loc>
+      
+      <lastmod>2023-07-10T14:56:52+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/zh-tw/bluexp-google-cloud-storage/whats-new.html</loc>
+      
+      <lastmod>2023-07-10T14:56:52+00:00</lastmod>
+      
+    </url>
+  
+
+  
+  
+</urlset>
