@@ -35,32 +35,6 @@ sidebar:
       url: "/task-get-help.html"
   - title: 法律聲明
     url: "/legal-notices.html"
-homepage:
-  tiles:
-  - title: 開始使用
-    links:
-    - title: 檢視您的Google Cloud Storage儲存桶
-      url: task-viewing-gcp-storage.html
-  - title: 管理 Google Cloud Storage 貯體
-    links:
-    - title: 新增貯體
-      url: task-add-gcp-bucket.html
-    - title: 變更貯體設定
-      url: task-change-gcp-bucket-settings.html
-    - title: 使用 NetApp 資料服務搭配 Google Cloud Storage 貯體
-      url: task-gcp-enable-data-services.html
-  - title: 更多資訊
-    links:
-    - title: 適用於 BlueXP 外部管理的 Google Cloud Storage 文件
-      url: https://cloud.google.com/storage/docs/creating-buckets
-  - title: 部落格與社群
-    links:
-    - title: NetApp社群
-      url: https://community.netapp.com/t5/BlueXP-and-Services/ct-p/CDS
-    - title: BlueXP部落格
-      url: https://bluexp.netapp.com/blog/topic/cloud-manager
-    - title: 雲端網路研討會
-      url: https://bluexp.netapp.com/events
 product-family:
   name: BlueXP
   repo: bluexp-family
