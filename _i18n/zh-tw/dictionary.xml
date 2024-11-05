@@ -280,7 +280,6 @@
   <block id="145634d473d937448dc7bdb5a6797ea7" category="section-title">2023 年 7 月 10 日</block>
   <block id="5a6d96b9a020e520981bf7fe4c7af203" category="section-title">能夠從 BlueXP 新增庫位並管理現有的庫位</block>
   <block id="2706c3785e1f78099c28d555600c918b" category="inline-link">瞭解如何新增 Google Cloud Storage 貯體</block>
-  <block id="71d86d6b260e92b047d7453cd653bd4c" category="paragraph">您已有一段時間可以在 BlueXP Canvas 上檢視 Google Cloud Storage 儲存貯體。現在、您可以直接從BlueXP新增新的儲存格並變更現有儲存格的內容。<block ref="df1f25cc6ac4c2f26feeca1367b4ae92" category="inline-link-rx"></block>。</block>
   <block id="b83e711561263aa7a3404d6bb2624f6e" category="sidebar">Google Cloud Storage 文件</block>
   <block id="7d0ee6fed10d3d4e5c9ee496729ab519" category="sidebar">版本資訊</block>
   <block id="be11c74c1dd7f307bb80183a90dc2067" category="sidebar">開始使用</block>
@@ -334,4 +333,5 @@
   <block id="0ca08a23718c0a91743dd6c0146ca353" category="paragraph">若要為 Cloud Volumes ONTAP 啟用下列關鍵工作流程、必須將 NetApp 支援網站認證與您的 BlueXP  組織建立關聯：</block>
   <block id="c81c8e01f5d906ae1ab0c5c606f06b05" category="paragraph">將 NSS 認證與您的 BlueXP  組織建立關聯、不同於與 BlueXP  使用者登入相關聯的 NSS 帳戶。</block>
   <block id="8166996cb4a59c147200d89a061bb49c" category="paragraph">這些 NSS 認證會與您的特定 BlueXP  組織 ID 相關聯。屬於 BlueXP  組織的使用者可從 * 支援 &gt; NSS 管理 * 存取這些認證。</block>
+  <block id="4d1dd60706cede8204b5a6edb14f8ff5" category="paragraph">您已有一段時間可以在 BlueXP Canvas 上檢視 Google Cloud Storage 儲存貯體。現在您可以直接從 BlueXP  新增新的貯體、並變更現有貯體的屬性。<block ref="a727375f2b80e544cee46379a3fbce4b" category="inline-link-rx"></block>。</block>
 </blocks>

@@ -24,4 +24,4 @@ summary: 瞭解 BlueXP 中 Google Cloud Storage 的新功能。
 
 === 能夠從 BlueXP 新增庫位並管理現有的庫位
 
-您已有一段時間可以在 BlueXP Canvas 上檢視 Google Cloud Storage 儲存貯體。現在、您可以直接從BlueXP新增新的儲存格並變更現有儲存格的內容。 https://docs.netapp.com/us-en/bluexp-google-cloud-storage/task-add-gcp-bucket.html["瞭解如何新增 Google Cloud Storage 貯體"^]。
+您已有一段時間可以在 BlueXP Canvas 上檢視 Google Cloud Storage 儲存貯體。現在您可以直接從 BlueXP  新增新的貯體、並變更現有貯體的屬性。 https://docs.netapp.com/us-en/bluexp-google-cloud-storage/task-add-gcp-bucket.html["瞭解如何新增 Google Cloud Storage 貯體"]。
