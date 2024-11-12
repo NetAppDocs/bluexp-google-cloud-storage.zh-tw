@@ -1,5 +1,7 @@
 = 能夠從 BlueXP 新增庫位並管理現有的庫位
 :allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
 
 
 
